@@ -1,0 +1,7 @@
+figure {
+  display: flex;
+  justify-content: center;
+}
+img {
+  top: 0px;
+}
