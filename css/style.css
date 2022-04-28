@@ -106,6 +106,8 @@ body img{
   flex-direction: column;
 }
 #toodoo {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
   text-align: right;
   color: white;
   position: absolute;
