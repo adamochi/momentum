@@ -8,44 +8,45 @@
     <title>Momentum App</title>
   </head>
   <body>
-    <style></style>
-    <figure>
-      <figcaption>Listen to the T-Rex:</figcaption>
-      <audio controls autoplay src="audio/Catch a riiide.mp3">
-        Your browser does not support the
-        <code>audio</code> element.
-      </audio>
-    </figure>
-    <h2 id="clock">00:00:00</h2>
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <input type="submit" value="Log In" />
-    </form>
+
+      <h2 id="clock">00:00:00</h2>
+      
+      <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <input type="submit" value="Log In" />
+      </form>
+
+    
     <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
-    <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/quotes.js"></script>
-    <script id="background" src="js/background.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
+
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+      </form>
+      
+      <div id="toodoo">
+        <span>HEY!</span>
+        <ul id="todo-list">
+      </div>
+       
+      </ul>
+
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+
+      
+    
+      <script src="js/greetings.js"></script>
+      <script src="js/clock.js"></script>
+      <script src="js/quotes.js"></script>
+      <script src="js/todo.js"></script>
+      <script id="background" src="js/background.js"></script>
+      <script src="js/weather.js"></script>
   </body>
 </html>
 
-<!-- if you put an input inside a form it will refresh the whole website!!X don't do -->

@@ -59,4 +59,4 @@ if (savedToDos !== null) {
 //  basically create new array without the item we want to delete, by using .filter
 // if it returns true, nothing will delete, and create array with all items,
 // it will call every item and get true or false for each
-function sexyFilter(){}
+// function sexyFilter(){}
