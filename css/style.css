@@ -136,14 +136,20 @@ body img{
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: rgba(98, 136, 219, 0.897);
+  background-color: rgba(98, 136, 219, 0.945);
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 32px;
   top: 0;
 }
+#portrait-mode div {
+  padding: 5px;
+  margin: 10px;
+}
+
 @media screen and (orientation: landscape) {
   #portrait-mode {
       display: none;
