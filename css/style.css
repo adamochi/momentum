@@ -131,3 +131,21 @@ body img{
   padding: 2px;
   margin: 5px 5px 5px 20px;
 }
+
+#portrait-mode {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: rgba(98, 136, 219, 0.897);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+@media screen and (orientation: landscape) {
+  #portrait-mode {
+      display: none;
+  }
+}

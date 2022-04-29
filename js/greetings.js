@@ -10,7 +10,7 @@ const greeting = document.querySelector("#greeting");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
-// I might make a mistake writing a string, so making it a constant, javascript will tell me there is an error!!!!!!!!!!!!!!!!!!!!!!!!
+// I might make a mistake writing a string, so making it a constant, javascript will tell me if there is an error
 function onLoginSubmit(event) {
     event.preventDefault();
     loginForm.classList.add(HIDDEN_CLASSNAME);
