@@ -93,7 +93,7 @@ body img{
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.342);
   color: rgb(255, 218, 240);
-  top: 0.5rem;
+  top: 2.5rem;
   right: 0.5rem;
 }
 #toodoo {
@@ -107,7 +107,7 @@ body img{
   flex-direction: column;
   font-size: 1rem;
   right: 0.5rem;
-  top: 4rem;
+  top: 4.2rem;
   border-radius: 5px;  
 }
 #toodoo > span {
